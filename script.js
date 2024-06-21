@@ -1,3 +1,5 @@
+document.getElementById('generate').addEventListener('click', generateQRCode);
+
 function generateQRCode() {
     const text = document.getElementById('text').value;
     if (text.trim() === '') {
